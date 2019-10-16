@@ -70,7 +70,7 @@ app.get('/productos/:id', verificaToken, (req, res) => {
             });
         });
 });
-
+//app.use(fileUpload({useTempFiles: true}));
 //Buscar producto
 app.get('/productos/buscar/:termino', verificaToken, (req, res) => {
 
